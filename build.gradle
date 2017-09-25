@@ -1,0 +1,20 @@
+group 'io.app'
+version '1.0.0-SNAPSHOT'
+description='Project Util'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+jar{
+    archiveName="utiltask-${version}.jar"
+}
