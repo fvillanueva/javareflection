@@ -1,10 +1,11 @@
+package io.entity;
+
 /**
- * Created by marcelvillanuevadelgado on 18/09/17.
+ * Created by fidelvillanuevadelgado on 25/09/17.
  */
-public class Data {
+public class Persona {
     private String name;
     private String lastName;
-    private String age;
 
     public String getName() {
         return name;
@@ -20,13 +21,5 @@ public class Data {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
     }
 }
